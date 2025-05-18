@@ -1,0 +1,287 @@
+.footerdesk {
+  display: none;
+}
+.footer_top {
+  display: flex;
+  align-items: center;
+}
+.footer_logo {
+  text-align: center;
+  margin-left: auto;
+  // margin-right: auto;
+}
+.footer_top_blok {
+  margin-left: 16px;
+  //   margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  padding-top: 40px;
+}
+.p1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--05);
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.p3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: var(--03);
+  margin-bottom: 24px;
+}
+.footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+}
+.footer_itemp {
+  margin-right: auto;
+}
+
+.footer_item {
+  margin-bottom: 8px;
+}
+.flex {
+  display: none;
+}
+.footer_top_desk3 {
+  margin-bottom: 24px;
+  margin-right: auto;
+}
+.footer_top_mobile_item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--1);
+  margin-bottom: 8px;
+}
+.hmmm {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--1);
+  margin-top: 16px;
+  margin-bottom: 4px;
+  text-align: start;
+}
+.nom_qomadi {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--06);
+  text-align: start;
+}
+.nom_qomadi_a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--prime);
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.nom_qomadi_a2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--prime);
+  margin-top: 20px;
+  margin-bottom: 33px;
+}
+.manaqambl {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--1);
+}
+.shunaqa {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--09);
+  display: block;
+}
+.footer_bottom_mobile {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footermbl {
+    display: none;
+  }
+  .maaaaaaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 592px;
+  }
+  .nom_qomadi_a{
+    display: none;
+  }
+  .flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_list {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+  .footer_wrapper {
+    gap: 0;
+  }
+  .footerdesk {
+    display: flex;
+  }
+  .footer_logo {
+    text-align: center;
+    margin-right: auto;
+    // margin-left: auto;
+    justify-content: start;
+    text-align: start;
+    margin: 0;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+  .p3 {
+    text-align: start;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--03);
+    max-width: 441px;
+    margin-left: 87px;
+    margin-bottom: 32px;
+  }
+  .p1 {
+    text-align: start;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--05);
+    margin-bottom: 8px;
+  }
+
+  .footer_top_blok {
+    margin: 0;
+  }
+  .footer_top {
+    text-align: left;
+    margin-right: auto;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .footer_all {
+    display: none;
+  }
+  .footer_top_desk2 {
+    display: block;
+  }
+  .footer_logo {
+    padding-top: 30px;
+    margin-bottom: 27px;
+  }
+  .p1desk {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--05);
+    margin-bottom: 8px;
+    text-align: start;
+  }
+  .p3desk {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--03);
+    max-width: 270px;
+    text-align: start;
+    margin-top: 16px;
+  }
+  .footer_top_desk2_item {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--1);
+    margin-bottom: 16px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_top_desk2 {
+    margin-top: 40px;
+  }
+  .desk_button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--prime);
+    margin-right: 24px;
+  }
+  .pdesk_end {
+    text-align: start;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--06);
+    width: 200px;
+    margin-top: 4px;
+  }
+  .anaqa {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .desk_a_blok {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 36px;
+  }
+  .search_blok {
+    margin-bottom: 16px;
+  }
+  .manaqa {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--1);
+    margin-bottom: 16px;
+  }
+  .footer_monile_top{
+    display: none;
+  }
+}

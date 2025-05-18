@@ -1,0 +1,200 @@
+.kupit_title {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--1);
+}
+.kupit_button {
+  text-align: start;
+}
+.kupit_a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--prime);
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.kupit {
+  padding-top: 16px;
+}
+.kupit_item {
+  border-radius: 8px;
+  width: 259px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+.kupit_star {
+  width: 150px;
+  height: 20px;
+}
+.kupit_star_a {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.kupit_top {
+  display: flex;
+  padding-top: 16px;
+}
+.kupit_heart_a {
+  margin-right: 8px;
+}
+.kupit_iphone {
+  text-align: center;
+  margin-top: 16px;
+}
+.kupit_title_3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: var(--1);
+  margin-top: 8px;
+}
+.span_blok {
+  display: flex;
+  margin-top: 16px;
+}
+.kupit_span {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--06);
+  margin-left: 16px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.kupit_span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../../heroimages/kupit_span_icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.kupit_p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+  color: var(--06);
+  margin-left: 16px;
+}
+
+.kupit_p_2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: line-through;
+  color: var(--05);
+  margin-left: 16px;
+}
+.kupit_blok_button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 8px;
+  width: 140px;
+  height: 40px;
+  background: var(--prime);
+  padding-top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+
+.kupit_blok_button::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../heroimages/button_left_before.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+.kupit_button_blok {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 17px;
+}
+.kupit_buttom {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--prime);
+  margin-left: 16px;
+}
+.kupit_text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+  color: var(--06);
+}
+.kupit_text_blok {
+  display: flex;
+  gap: 25px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.kupit_title {
+  margin-top: 24px;
+}
+.kupit_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.kupit_item {
+  border-radius: 8px;
+  width: 100%;
+  height: 390px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .kupit_title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    color: var(--1);
+  }
+  .kupit_a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--prime);
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .kupit_blok_button {
+    background: #52d116;
+    color: var(--1);
+    padding: 0;
+    color: #fff;
+  }
+}

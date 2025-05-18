@@ -1,0 +1,153 @@
+.hero {
+  background: #d0eafc;
+}
+.hero_span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  color: #1e3240;
+  margin-right: 16px;
+}
+.hero_mobile_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 48px;
+  color: #1e3240;
+  text-align: center;
+  margin-top: 6px;
+  white-space: nowrap;
+}
+.hero_mobile_image {
+  text-align: center;
+  padding-top: 40px;
+}
+.hero_button_blok {
+  text-align: center;
+  margin-top: 16px;
+}
+.hero_button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 8px;
+  background: var(--prime);
+  padding: 19px 40px;
+}
+.hero_mobile_image2 {
+  margin-top: 31px;
+}
+
+.hero_left_button {
+  width: 40px;
+  height: 40px;
+  background-image: url(../../heroimages/hero_left_icon.svg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+}
+.buttom_image{
+    margin-left: 10px;
+}
+.hero_left_button2 {
+  width: 40px;
+  height: 40px;
+  background-image: url(../../heroimages/hero_right_icon.svg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+}
+.button_blok_hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.deskimg {
+  display: none;
+}
+.tblimg {
+  display: none;
+}
+.deskimg2 {
+  display: none;
+}
+.tblimg2 {
+  display: none;
+}
+.mblimgblok{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .mblimg {
+    display: none;
+  }
+  .tblimg {
+    display: flex;
+  }
+  .hero_mobile_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 48px;
+    color: #1e3240;
+  }
+  .hero_span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: #1e3240;
+  }
+  .hero_button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+  }
+  .mblimg2 {
+    display: none;
+  }
+  .tblimg2 {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .tblimg2 {
+    display: none;
+  }
+  .tblimg {
+    display: none;
+  }
+  .deskimg{
+    display: flex;
+  }
+  .deskimg2{
+    display: flex;
+  }
+  .hero_blok{
+    display: flex;
+    align-items: center;
+    flex-direction:row-reverse;
+    padding-top: 100px;
+  }
+  .hero_blok2{
+    margin-left: 48px;
+  }
+  .hero_button_blok{
+    text-align: start;
+  }
+  .hero_mobile_text{
+    text-align: start;
+  }
+}

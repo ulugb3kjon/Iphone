@@ -1,0 +1,145 @@
+.model_title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--1);
+  text-align: start;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.model_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--07);
+  margin-bottom: 16px;
+}
+.promax {
+  background: #000;
+}
+.promax_title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-align: start;
+}
+.promax_text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-align: start;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.promax_button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 8px;
+  background: var(--prime);
+  padding: 10px 40px;
+  width: 160px;
+}
+.promax_button_box {
+  text-align: start;
+}
+.promax_blok {
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.promax_blok1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 24px;
+}
+.protable {
+  display: none;
+}
+.prodesk {
+  display: none;
+}
+.sol_opangni {
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .model_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--1);
+  }
+  .model_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--07);
+  }
+  .promobile {
+    display: none;
+  }
+  .protable {
+    display: flex;
+  }
+  .promax_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+  }
+  .promax_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+  }
+  .promax_button {
+    padding: 18px 39px;
+    width: 160px;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .promax_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    color: #fff;
+  }
+  .promax_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+  }
+  .promax_button {
+    padding: 18px 39px;
+    width: 160px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+  }
+  .protable {
+    display: none;
+  }
+  .prodesk {
+    display: flex;
+  }
+  .model_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--1);
+  }
+  .model_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--07);
+  }
+}
