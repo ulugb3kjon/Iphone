@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
 :root {
   --1: #100e0e;
   --prime: #0071e4;
@@ -15,8 +15,7 @@
 }
 
 :root {
-  --font-family: "SF Pro Display", sans-serif;
-  --font-family: "Gilda Display", serif;
+  font-family: "Boldonse", system-ui;
 }
 
 body {
@@ -64,6 +63,7 @@ button {
 body {
   margin: 0;
   overflow-x: hidden;
+  font-family: "Boldonse", system-ui;
 }
 
 .container {
